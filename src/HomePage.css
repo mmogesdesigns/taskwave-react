@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
+body {
+  background: linear-gradient(to right, #8a89fe, #ffbacb);
+  color: white;
+  padding: 20px;
+}
+.la-belle-aurore-regular {
+  font-family: "La Belle Aurore", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-brand{
+  font-family:'La Belle Aurore', cursive ;
+  font-size: 60px;
+  font-weight: 1000;
+}
+nav ul li{
+  font-weight: 700;
+  
+}
+.navbar-light .navbar-nav .nav-link,
+.navbar-brand,
+.card-body,
+footer {
+  color: white !important;
+}
+.btn-outline-light {
+  border-color: white;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: #ffbacb;
+  color: #8a89fe;
+}
+.navbar-nav .nav-item {
+  margin-right: 40px;
+}
+.welcome-container h2 {
+  font-size: 60px;
+  font-weight: 900;
+}
+.welcome-container p {
+  font-size: 23px;
+  font-weight: 500;
+}
+.btn-primary {
+    background-color: #8c6ce8; 
+    border-color: #8c6ce8; 
+    color: white; 
+    cursor: pointer;  
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    background-color: #7a5cc8; 
+    transform: scale(1.05);
+}
+
+.card {
+  background-color: rgba(138, 137, 254, 0.2);
+  border: none;
+  flex: 1 1 auto;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card img {
+  width: 100%; 
+  height: 400px; 
+}
+
+@media (max-width:768px){
+  .welcome-container{
+    padding-bottom: 20px;
+  }
+}
